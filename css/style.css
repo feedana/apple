@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000;
+    /* background-color: #000; */
     color: white;
     text-align: center;
 }
@@ -28,6 +28,7 @@ body {
 /* Main Section */
 .main {
     padding: 40px 20px;
+    background-color: #000;
 }
 .main h1 {
     font-size: 40px;
@@ -52,6 +53,99 @@ body {
     margin-top: 40px;
 }
 .promo-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Spirited Section */
+.spirited {
+    background: url('../images/f423c4cc7bf8a6717911b5dfeb0216f4245f0af3.jpg') no-repeat center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.overlay-text {
+    position: relative;
+}
+
+.top-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.top-text span:first-child {
+    margin-right: 300px; /* adjust spacing */
+}
+
+.tv-logo {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.spirited h1 {
+    font-size: 80px;
+    font-family: serif;
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.streaming {
+    font-size: 16px;
+    color: white;
+}
+
+/* iPhone 14 Section */
+.iphone {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.iphone h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.iphone p {
+    font-size: 20px;
+    color: #0e0d0d;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+.links a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.iphone-image {
+    margin-top: 30px;
+}
+
+.iphone-image img {
     max-width: 100%;
     height: auto;
 }
